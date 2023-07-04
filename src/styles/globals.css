@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nav032 {
+	background-image: url('../../public/bg.jpg');
+	background-size:cover;
+}
+#navlink:hover {
+	color:rgb(24, 154, 235);
+	font-size:20px;
+	font-weight: bold;
+}
+
+ @media (max-width:860px) {
+	#carousel-content{
+		position: absolute;
+		left: 30vw;
+	}
+	#div {
+		visibility: hidden;
+	}
+	#div2 {
+		visibility: hidden;
+	}
+	#mainDiv {
+		flex-direction: column;
+	}
+	#div01 {
+		flex-basis: 25%;
+	}
+	#div02 {
+		flex-basis: 75%;
+	}
+ }
+ @media (max-width:750px) {
+	.button:last-child {
+		margin-top: 20px;
+		margin-left: -90px;
+	}
+	#dropDown {
+		margin-left: -80px;
+	}
+ }
+ @media (max-width:640px) {
+	#div02 {
+		margin-top: -80vh;
+	}
+ }
+
+ .button {
+	float: left;
+	width: 100px;
+	height: 40px;
+	position: relative;
+  }
+
+  .button label,
+  .button input {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+  }
+
+  .button input[type="radio"] {
+	opacity: 0.011;
+	z-index: 100;
+
+  }
+
+  .button input[type="radio"]:checked + label {
+	background: #2c6aef;
+	border-radius: 4px;
+  }
+
+  .button label {
+	cursor: pointer;
+	z-index: 90;
+	line-height: 1.8em;
+  }
+  #div {
+	width: 25vw;
+  }
