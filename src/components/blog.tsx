@@ -6,9 +6,8 @@ import {
 	Typography,
 	Button
   } from "@material-tailwind/react";
-import { useInView,motion, MotionConfig } from "framer-motion";
+import { useInView } from "framer-motion";
 import Link from "next/link";
-import { root } from "postcss";
 import { useRef } from "react";
 
   export default function Blog() {

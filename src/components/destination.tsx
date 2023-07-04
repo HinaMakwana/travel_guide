@@ -1,7 +1,7 @@
 import { Text, Card} from "@nextui-org/react";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
-import { CardContainer, MotionCard } from "./motionCard";
+import { CardContainer } from "./motionCard";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 export default function Destination() {

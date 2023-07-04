@@ -1,7 +1,6 @@
 import React, { useRef } from 'react'
 import Latest from './latest'
 import { Variants,motion, useInView } from 'framer-motion'
-import { Pagewrapper } from './page-wrapper';
 
 const cardSectionTitleVariants: Variants = {
 	hidden: {

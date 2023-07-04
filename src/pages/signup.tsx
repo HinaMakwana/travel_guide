@@ -1,7 +1,7 @@
 'use client';
 
 import { Typography } from '@material-tailwind/react';
-import { Button, Checkbox, Label, TextInput } from 'flowbite-react';
+import { Button, Label, TextInput } from 'flowbite-react';
 
 export default function SignUp() {
   return (

@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import {motion} from 'framer-motion'
-import { Button, Link, Navbar,Text } from '@nextui-org/react'
-import { transform } from 'typescript';
+import { Link, Navbar } from '@nextui-org/react'
 import TravelQue from '@/components/stepper';
 
 const collapseItems = [
@@ -43,7 +42,7 @@ function Start() {
 		<div>
 			<Navbar variant="sticky">
 				<Navbar.Brand>
-					<Navbar.Toggle isPressed='true' onClick={()=> {(isPressed==false)&&setIsPressed(true);(isPressed==true)&&setIsPressed(false);}} aria-label="toggle navigation" css={{position:'absolute',left:'-150px'}} >
+					<Navbar.Toggle isPressed='true' onClick={()=> {(isPressed==false)&&setIsPressed(true);(isPressed==true)&&setIsPressed(false);}} aria-label="toggle navigation" >
 						{
 							(isPressed == false) ?
 							(<motion.svg

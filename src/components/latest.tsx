@@ -1,5 +1,5 @@
-import React, { useRef } from 'react'
-import {motion, useInView} from 'framer-motion'
+import React from 'react'
+import {motion} from 'framer-motion'
 import { Text, Card} from "@nextui-org/react";
 import { ArrowLongRightIcon } from "@heroicons/react/24/outline";
 import Link from 'next/link';
