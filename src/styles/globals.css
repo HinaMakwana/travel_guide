@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+html {
+	scroll-behavior: smooth;
+}
 
 #nav032 {
 	background-image: url('../../public/bg.jpg');

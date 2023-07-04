@@ -6,7 +6,7 @@ import { Button, Label, TextInput } from 'flowbite-react';
 export default function SignUp() {
   return (
 	<div className='flex justify-center mt-52'>
-		<div className="flex flex-col gap-4 bg-slate-200 w-1/2 p-10 rounded-xl">
+		<div className="flex flex-col gap-4 bg-slate-200 w-1/4 p-10 rounded-xl">
 			<h1	className='text-4xl font-bold text-center text-gray-500'>SignUp</h1>
 			<div>
 				<div className="mb-2 block">
